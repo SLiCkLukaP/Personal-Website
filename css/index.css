@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1.5fr;
+    grid-template-rows: 1fr 4fr 3fr 2fr;
+    grid-template-areas: "main main header" "main main photo" "text bio photo" "about about photo";
+    height: 100vh;
+    margin: 2em;
+}
+
+main {
+    grid-area: main;
+    background: #925bac;
+}
+
+section.text {
+    grid-area: text;
+    background: #21e742;
+}
+
+section.bio {
+    grid-area: bio;
+    background: #69e4fa;
+}
+
+section.about {
+    grid-area: about;
+    background: #e79231;
+}
+
+header {
+    grid-area: Native birds;
+    background: #eb4577
+}
+
+.photo {
+    grid-area: photo;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkJ06ovnnFhSGD7f94K3VYtbQpMbRYwJ_Aew&usqp=CAU') no-repeat;
+    background-size: cover;
+}
