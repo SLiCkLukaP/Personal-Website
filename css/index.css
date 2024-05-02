@@ -14,27 +14,33 @@ body {
 
 main {
     grid-area: main;
-    background: #925bac;
+    background: #ffffff;
+    border-style: solid;
 }
 
 section.text {
     grid-area: text;
-    background: #21e742;
+    background: #ffffff;
+    border-style: solid;
 }
 
 section.bio {
     grid-area: bio;
-    background: #69e4fa;
+    background: #ffffff;
+    border-style: solid;
 }
 
 section.about {
     grid-area: about;
-    background: #e79231;
+    background: #ffffff;
+    list-style: none;
+
 }
 
 header {
     grid-area: Native birds;
-    background: #eb4577
+    background: #47d3f7;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .photo {
